@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+       font-family: 'Sriracha', cursive;
+       background: #1b1a3a;
+    }
+   h2, h3, p {
+       text-align: center;
+       color: white;
+    }
+    .column {
+       width: 25%; 
+       padding: 0 10px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .card {
+      height: 250px;
+      box-shadow: 0 4px 8px 0 grey;
+      padding: 16px;
+      text-align: center;
+      border-radius: 10px;
+    } 
+	
+    @media screen and (min-width: 768px) {
+      .card:hover{
+        animation: pulse 2s;
+      }
+      @keyframes pulse {
+        0% {
+        transform: scale3d(1, 1, 1);
+        }
+        50% {
+        transform: scale3d(1.09, 1.09, 1.09);
+        }
+        100% {
+        transform: scale3d(1, 1, 1);
+        }
+      } 
+      
+    }
+
+    @media screen and (max-width: 768px) {
+      .column {
+        width: 200px;
+        display: block;
+       margin-left: -30px;
+       transition: width 1s ease-in-out;
+      }
+      .column:hover{
+        width: 300px;
+      }
+      .row {
+           margin: 50px;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .card:hover {    
+      width: 150px;
+     }
+    p{ 
+      font-size: 10px;
+     }
+  }
+
+  @media screen and (max-width: 400px) {
+    p{ 
+      font-size: 7px;
+     }
+     .row {
+      margin-left: 80px;
+    }
+  }
+
+
+    
+/* sunset */
+#c1 { background-color: #a3586d; }   
+#c2 { background-color: #5c4a72; } 
+#c3 { background-color: #f3b05a; }
+#c4 { background-color: #f4874b; }
+#c5 { background-color: #f46a4e; } 
+#c6 { background-color: #ff9933; } 
+/* retro */
+#c7 { background-color: #bd4244; } 
+#c8 { background-color: #c0334d; } 
+#c9 { background-color: #d6618f; } 
+#c10 { background-color: #caa564; } 
+#c11 { background-color: #f89e27; } 
+#c12 { background-color: #8f715b; } 
+/* coffee */
+#c13 { background-color: #381b13; } 
+#c14 { background-color: #763300; } 
+#c15 { background-color: #d7b787; } 
+#c16 { background-color: #f9f8f6; } 
+#c17 { background-color: #aaa7a2; } 
+#c18 { background-color: #5e5553; } 
+/* vintage */
+#c19 { background-color: #264653; } 
+#c20 { background-color: #2a9d8f; } 
+#c21 { background-color: #e9c46a; } 
+#c22 { background-color: #bf9d7a; } 
+#c23 { background-color: #f4a261; } 
+#c24 { background-color: #e76f51; } 
+/* fruity */
+#c25 { background-color: #93ff68; } 
+#c26 { background-color: #e4ff55; } 
+#c27 { background-color: #ffb543; } 
+#c28 { background-color: #ff5a5a; } 
+#c29 { background-color: #c660ff; } 
+#c30 { background-color: #b82d59; } 
+/* winter barn */
+#c31 { background-color: #f7f6ff; }   
+#c32 { background-color: #bdb2ff; } 
+#c33 { background-color: #51a2d9; }
+#c34 { background-color: #53c0f0; }
+#c35 { background-color: #b9e5f3; } 
+#c36 { background-color: #8a140e; } 
+/* christmas */
+#c37 { background-color: #2b2d42; } 
+#c38 { background-color: #8d99ae; } 
+#c39 { background-color: #edf2f4; } 
+#c40 { background-color: #ff6275; } 
+#c41 { background-color: #ef233c; } 
+#c42 { background-color: #d90429; } 
+/* tropical */
+#c43 { background-color: #851019; } 
+#c44 { background-color: #bb1009; } 
+#c45 { background-color: #f18b7c; } 
+#c46 { background-color: #f0f4f7; } 
+#c47 { background-color: #6f9b80; } 
+#c48 { background-color: #35838d; } 
+/* twilight moon */
+#c49 { background-color: #000000; } 
+#c50 { background-color: #0e0c3b; } 
+#c51 { background-color: #eecc8d; } 
+#c52 { background-color: #f08833; } 
+#c53 { background-color: #d75404; } 
+#c54 { background-color: #8a2c02; } 
+/* barries glore */
+#c55 { background-color: #bb1924; } 
+#c56 { background-color: #e62b37; } 
+#c57 { background-color: #ee6cb1; } 
+#c58 { background-color: #df7e92; } 
+#c59 { background-color: #777cab; } 
+#c60 { background-color: #afbadc; } 
+
+
+
+
+
+
